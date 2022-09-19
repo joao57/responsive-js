@@ -1,0 +1,55 @@
+{
+  "name": "JS.Responsive",
+  "version": "3.4.1",
+  "description": "Tool for responsive styling and responsive javascript coding.",
+  "main": "dist/JS.Responsive.js",
+  "scripts": {
+    "dev": "node server/server.js",
+    "prebuild": "node server/preBuild.js",
+    "build": "npm run prebuild && node server/buildHelper.js",
+    "custom": "npm run prebuild && node server/customBuildHelper.js",
+    "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "devDependencies": {
+    "archiver": "^1.3.0",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.1.18",
+    "babel-eslint": "^5.0.0",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-preset-es2015": "^6.3.13",
+    "chai": "^3.4.1",
+    "eslint": "^1.7.2",
+    "eslint-loader": "^1.1.0",
+    "express": "^4.14.0",
+    "ink-docstrap": "^1.3.0",
+    "jsdoc-webpack-plugin": "^0.0.1",
+    "mocha": "^2.3.4",
+    "webpack": "^1.12.9",
+    "yargs": "^3.32.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seyd/JS.Responsive.git"
+  },
+  "keywords": [
+    "front-end",
+    "framework",
+    "responsive",
+    "javascript",
+    "css",
+    "js",
+    "less",
+    "sass",
+    "web",
+    "umd",
+    "commonjs",
+    "bower"
+  ],
+  "author": "Jan Seyd",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/seyd/JS.Responsive/issues"
+  },
+  "homepage": "http://jsresponsive.wezeo.com/"
+}
