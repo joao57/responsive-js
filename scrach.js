@@ -1,4 +1,5 @@
 // just test yet
+// run twice
 // TripleFlap, <http://floern.com/software/tripleflap>, a flying twitter bird. Copyright (c) 2010 Florian Buenzli, <http://floern.com/>, GNU/GPL.
 if(typeof(twitterAccount)!="string")var twitterAccount="";
 if(typeof(tweetThisText)!="string"||tweetThisText=="")var tweetThisText=document.title+" "+document.URL;
